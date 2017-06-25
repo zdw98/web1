@@ -1,24 +1,130 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>注册界面</title>
+<head ><BASE href="http://xww.nun.edu.cn">
+<meta charset="utf-8">
+<title >学校概况</title>
+<link href="style/index.css" rel="stylesheet" type="text/css"                      />
+<SCRIPT language=javascript type=text/javascript src="js/jquery-1.4.3.js" ></SCRIPT>
+<script src="js/jquery.KinSlideshow-1.1.js" type="text/javascript" ></script>
+<script type="text/javascript" > 
+$(function(){
+    $("#KinSlideshow").KinSlideshow({
+            moveStyle:"down",
+            intervalTime:4,
+            mouseEvent:"mouseover",
+            titleBar:{titleBar_height:30,titleBar_bgColor:"#08355c",titleBar_alpha:0},
+            titleFont:{TitleFont_size:14,TitleFont_color:"#FF0000"}
+    });
+})
+</script>
+<!--滚动图弹窗-->
+<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js" ></script>
+<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js" ></script>
+<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen"                      />
+<link rel="stylesheet" type="text/css" href="css/css.css" media="all"                      />
+    <script language="javascript" type="text/javascript">
+    jQuery(document).ready(function(){
+        visitCount("","viewPageCount","article","43433");
+    });
+    </script>
+<script type='text/javascript' charset='UTF-8'>
+var SiteName='大学新闻网';
+var SiteDomainName='xww.nun.edu.cn';
+var SiteContext='xww';
+var searchServer='http://wzzy.nun.edu.cn/SearchServer';
+var CheckLogin='false';
+
+</script>
+<script type='text/javascript' charset='UTF-8' src='http://wzzy.nun.edu.cn/SearchServer/js/TemplateProcess.js'></script>
+<script type='text/javascript' charset='UTF-8' src='http://wzzy.nun.edu.cn/SearchServer/js/visit.js'></script>
+<script type='text/javascript' charset='UTF-8' src='http://wzzy.nun.edu.cn/SearchServer/js/pagination.js'></script>
+<script type='text/javascript' charset='UTF-8' src='http://wzzy.nun.edu.cn/SearchServer/js/listAjax.js'></script>
+<script type='text/javascript' charset='UTF-8' src='http://wzzy.nun.edu.cn/SearchServer/js/UrlTool.js'></script>
+<script type='text/javascript' charset='UTF-8' src='http://wzzy.nun.edu.cn/SearchServer/js/articlePagination.js'></script>
+<script type='text/javascript' charset='UTF-8' src='http://wzzy.nun.edu.cn/SearchServer/js/flexpaper/flexpaper_flash.js'></script>
 </head>
-<body>
-	<table border="1" width="600" height="600" cellspacing="0" cellpadding="10" align="center">
-		<tr><td width="80" height="30">用户名：</td><td height="30"><input type="text" name="uname"/></td></tr>
-		<tr><td>密码：</td><td><input type="password" name="pwd"/></td></tr>
-		<tr><td>确认密码：</td><td><input type="password" name="pwd"/></td></tr>
-		<tr><td>性别：</td><td><input type="radio" name="gender"/>男<input type="radio" name="gender">女</td></tr>
-		<tr><td>生日：</td><td><select><option>公历</option></select><select><option>年</option></select><select><option>月</option></select><select><option>日</option></select></td></tr>
-		<tr><td>所在地：</td><td><select><option>中国</option></select><select><option>河北省</option></select><select><option>石家庄市</option></select></td></tr>
-		<tr><td>验证码：</td><td><input type="text" name="uname"/><img src="images/yanzhengma.jpg"></td></tr>
-		<tr><td>证件类型：</td><td><select><option>身份证</option></select></td></tr>
-		<tr><td>证件号：</td><td><input type="text" name="uname"/></td></tr>
-		<tr><td>爱好：</td><td><input type="checkbox" name="hobby">音乐<input type="checkbox" name="hobby1">读书<input type="checkbox" name="hobby2">跳舞<input type="checkbox" name="hobby3">下棋<input type="checkbox" name="hobby4">其他</td></tr>
-		<tr><td>说明：</td><td><textarea rows="3" cols="5" style="width:400px;height:160px;"></textarea></td></tr>
-		<tr><td>上传头像</td><td><input type="file" name="ding"/></td></tr>
-		<tr><td></td><td><input type="submit" name="sub"/><input type="reset" name="reset"/><input type="button" name="3"></td></tr>
-	</table>
+ 
+<body >
+
+<div id="main" >
+
+    <div id="realmain" >
+    <div id="top" >
+    <div id="realtop" >
+        <div id="realtopb" ><a href="javascript:void(0)" onclick="SetHome(this,window.location)" class="linkzc" >设为首页</a></div>
+        <div id="realtopb" ><a href="javascript:void(0)" onclick="shoucang(document.title,window.location)" class="linkzc" >加入收藏</a></div>
+        <div style="clear:both;" ></div>
+    </div>
+</div>
+        <div id="toplogo" ><img src="images/1.jpg"                      /></div>
+                    <div id="navi" >
+    
+    <div id="navilist" class="listcurrent" ><a    style="text-decoration:none;color:#FFF;"     HREF="http://xww.nun.edu.cn">网站首页</a></div>
+    
+    <div id="navilist" class="list" > <a   style="text-decoration:none;color:#FFF;" target='_blank'   HREF="http://xww.nun.edu.cn/2076.html">所有新闻</a></div>
+    
+    <div id="navilist" class="list" ><a  style="text-decoration:none;color:#FFF;" target='_blank'    HREF="http://xww.nun.edu.cn/2061.html">学校新闻</a></div>
+    <div id="navilist" class="list" ><a  style="text-decoration:none;color:#FFF;" target='_blank'    HREF="http://xww.nun.edu.cn/2062.html">部门动态</a></div>
+    
+    <div id="navilist" class="list" ><a   style="text-decoration:none;color:#FFF;" target='_blank'    HREF="http://xww.nun.edu.cn/2063.html">媒体民大</a></div>
+    
+    <div id="navilist" class="list" ><a  style="text-decoration:none;color:#FFF;" target='_blank'    HREF="http://xww.nun.edu.cn/2180.html">学术活动</a></div>
+    
+    <div id="navilist" class="list" ><a   style="text-decoration:none;color:#FFF;" target='_blank'    HREF="http://xww.nun.edu.cn/2066.html">校内通知</a></div>
+    
+    <div id="navilist" class="list" ><a  style="text-decoration:none;color:#FFF;" target='_blank'    HREF="http://xww.nun.edu.cn/2864.html">学术看板</a></div>
+    
+    <div id="navilist" class="list" ><a  style="text-decoration:none;color:#FFF;"target='_blank'    HREF="http://xww.nun.edu.cn/2863.html">教育资讯</a></div>
+    </div>     
+       <div id="main1" style="padding-top:10px; padding-bottom:10px" >
+        <div id="newsborder" >
+        <div id="main1righttop"   >
+        您现在的位置： <a class='LinkPath' style="text-decoration:none;" href='http://xww.nun.edu.cn'    >北方民族大学新闻网</a> >> 
+<a class='LinkPath'  style="text-decoration:none;" href='http://xww.nun.edu.cn/2076.html'    cmsid=34>
+</a>
+<a class='LinkPath'  style="text-decoration:none;" href='http://xww.nun.edu.cn/2181.html'    cmsid=34>
+学校概况
+</a>
+
+
+>> 文章正文
+        
+        </div>
+        <div id="wztitlea" >学校概况
+
+<br algin='center' >        <span algin="center" ></span>
+ </div>
+        <div id="pza" >
+        来源：
+  发布时间：2016-6-8 16:20:00
+ 阅读次数：<label id='viewPageCount' ></label>
+        </div>
+ 
+       <div id="newcontent" >
+<p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　北方民族大学是我国唯一一所建立在少数民族自治区的部委高校，直属于国家民族事务委员会，是国家民委和教育部共建大学。学校坐落在“塞上江南”——宁夏回族自治区首府银川市，占地面积1624亩。学校前身是西北第二民族学院，始建于1984年，2008年更名为北方民族大学。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　学校坚持社会主义办学方向，全面贯彻落实科学发展观，坚持党的教育方针和民族政策相结合，坚持高等教育基本规律和民族高等教育特点相结合，坚持“政治坚定、公民表率、业务过硬、社会栋梁”的总体要求，服务于我国少数民族和民族地区经济社会发展。学校是培养少数民族优秀人才的重要基地，是研究民族理论与民族政策的重要基地，是传承和弘扬民族优秀文化的重要基地，也是展示我国民族政策和对外交流的重要窗口。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　近年来，学校事业发展提质增速。2000年，学校顺利通过教育部本科教学合格评估，2004年国家民委与宁夏回族自治区签署共建协议，2007年在教育部本科教学工作水平评估中获得优秀。2011年5月，学校被教育部授予全国高校毕业生就业工作50强经验推广高校，并多次荣获自治区“民族团结进步先进集体”荣誉称号。学校办学条件优良，人文环境幽雅，被全国绿化委员会授予“全国部门绿化400佳单位”荣誉称号，被银川市人民政府命名为“花园式单位”。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　2015年10月，国家民委和教育部决定共建北方民族大学在内的6所委属高校，学校发展迎来新的契机。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　学校现有来自全国31个省、市、自治区的56个民族的硕士生、本科生、预科生2万余人在读，少数民族学生比例为60%，是中华民族大家庭的缩影。30多年来，学校为少数民族和民族地区经济社会发展培养了4万余名优秀人才，他们深谙民族文化传统，熟悉民族风俗民情，在民族地区安心工作，已经成为各民族“共同团结奋斗，共同繁荣发展”的践行者，少数民族和民族地区经济社会发展的建设者，民族优秀文化的弘扬和传播者，民族团结、祖国统一的捍卫者。他们为民族地区经济建设、社会发展、民族和谐贡献着自己的青春和智慧，为民族团结进步事业作出了积极贡献。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　学校在学科建设、专业设置上注重民族地区的需要，关注民族地区的发展。目前，有文学、理学、工学、法学、历史学、管理学、经济学、艺术学、教育学、医学10个学科门类；国际经济与贸易、信息工程、动画等71个本科专业；中国少数民族史等16个省部级重点学科；电路与系统等3个自治区优势特色学科；材料科学与工程等4个国家级特色专业；汉语言文学等9个省部级优势特色专业；法学等4个省部级重点建设专业；自动化等7个省部级“十三五”重点建设专业；民族学等6个一级学科硕士学位点；中国少数民族经济等31个二级学科硕士学位点；MPA等3个专业硕士学位点；1个材料科学国家级实验教学示范中心，化工技术基础等8个省部级实验教学示范中心，。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　学校坚持“人才强校”战略，坚持培养和引进并重，建设了一支包括国家“万人计划”哲学社会科学领军人才1人，“百千万人才工程”国家级人选2人，文化名家暨“四个一批”人才工程1人，享受国务院政府特殊津贴8人，全国“百千万知识产权人才工程”百名高层次人才1人，全国优秀教师1人，教育部“新世纪人才支持计划”2人，科技部中青年科技创新领军人才1人，国家民委突出贡献专家4人，宁夏回族自治区“塞上英才”工程人选1人，享受自治区政府特殊津贴4人在内的教师队伍。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　学校在培养少数民族优秀人才的同时，积极面向民族地区经济建设开展科学研究，加强与地方政府的交流与合作，建立了依托地方、融入地方、服务地方的合作办学、合作攻关联合机制，加大校地校企合作步伐，在社会服务中实现大学使命和价值回归。学校在粉体材料与特种陶瓷研究，废渣循环再利用，清真食品研发，清真畜产品养殖，葡萄种植与葡萄酒酿造技术，域外西夏文献整理与研究，贺兰山大麦地岩画研究，回族伊斯兰文化研究，少数民族艺术研究，少数民族史学研究及北方语言研究等方面形成了一定的特色和优势。学校建设了发酵酿造工程生物技术重点开放实验室等5个省部级重点实验室，1个示范型国家国际科技合作基地，1个全国科普教育基地，3个国家民委人文社科研究基地，1个自治区级工程研究中心，3个自治区高等学校科技创新平台。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　学校坚持开放办学的原则，积极与国际国内高等院校、科研机构、地方政府、行业企业开展交流合作。先后与北京大学、合肥工业大学、西安交通大学、北京科技大学、兰州大学学校等多所国内高校以及美国路易斯安那大学、英国格林多大学、马来西亚北方大学、泰国清迈大学等等国（境）外18所高校建立并保持着良好的合作关系。学校主动融入国家“一带一路”战略，2014年成立了国际教育学院和阿拉伯语学院。在国家民委的大力支持下举办了援助中亚青年汉语培训班。积极参与中阿合作论坛，参加第三届中阿校长论坛，召开中阿经贸关系国际学术研讨会。加入“新丝绸之路大学联盟”，先后与15个国家和地区的30多个高校和机构建立了合作关系，签署合作协议41项。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　学校实施“双驱动”+“双三位一体”的创新创业教育模式，建立以资源共享、兴趣驱动、学科交叉、尊重个性、自主学习、自我管理为支撑的“创新创业团队+创新创业实践+校企合作实践”三位一体实践平台，有力促进了“创新引领创业，创业带动就业”。学校被评为首批“宁夏回族自治区创业孵化示范基地”“宁夏回族自治区科技企业孵化器”，被教育部授予“全国首批百所深化创新创业教育改革示范高校”，被人力资源和社会保障部评为第三批“全国创业孵化示范基地”。</span></p><p style="line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">　　站在新的历史起点上，学校将全面深化改革，推进内涵式发展，为早日建成有特色高水平现代民族大学而努力奋斗！（数据统计截止2017年3月）</span></p><p><br/></p><p><br/></p>
+       </div>
+
+        </div>
+        <div style="clear:both;" ></div>
+        </div> 
+        
+                <div id="bottom" ><div id="bottomreal" >
+    <div id="bottom-1" >
+        <div id="bottom-1a" style="display:none" >
+                <img src="images/dblogo.png" height="80" border="0"                      /></div>
+        
+          <div id="bottom-1b-1gg" >中国-宁夏回族自治区-银川市-西夏区-文昌北街204号 邮政编码：750021<br                      />
+版权所有：北方民族大学党委宣传部 宁ICP备：010150<br                      />
+Copyright @2003-2016 All rights reserved</div>
+          
+       
+        <div id="bottom-1b" style="display:none" >
+    </div>
+    </div>
+  </div>        </div>
+ 
+ 
+</div>
 </body>
 </html>
+
